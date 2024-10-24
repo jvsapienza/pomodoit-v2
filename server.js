@@ -2,7 +2,7 @@
 const { createServer } = require('http');
 const next = require('next');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000; // Porta em que a aplicação vai escutar
 const app = next({ dev: false });
 const handle = app.getRequestHandler();
 
